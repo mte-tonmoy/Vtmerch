@@ -1,4 +1,19 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useSeoMeta({
+  description:
+    "Shop the latest trends and exclusive collections at VTMERCH. Discover high-quality apparel and accessories for all occasions. Free shipping on orders over $50.",
+  ogTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  ogDescription:
+    "Discover the latest styles at VTMERCH. Shop our exclusive range of apparel and accessories, designed for quality and style.",
+  ogImage: "/img/img (4).jpeg",
+  ogUrl: "https://www.vtmerch.com",
+  twitterTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  twitterDescription:
+    "Shop the latest trends at VTMERCH. High-quality apparel and accessories for everyone.",
+  twitterImage: "/img/img (6).jpeg",
+  twitterCard: "summary_large_image",
+});
+</script>
 <template>
   <section class="bg-black py-10">
     <main class="container mx-auto">

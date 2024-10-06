@@ -23,6 +23,21 @@ export default {
     };
   },
 };
+
+useSeoMeta({
+  description:
+    "Shop the latest trends and exclusive collections at VTMERCH. Discover high-quality apparel and accessories for all occasions. Free shipping on orders over $50.",
+  ogTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  ogDescription:
+    "Discover the latest styles at VTMERCH. Shop our exclusive range of apparel and accessories, designed for quality and style.",
+  ogImage: "/img/img 10.jpg",
+  ogUrl: "https://www.vtmerch.com",
+  twitterTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  twitterDescription:
+    "Shop the latest trends at VTMERCH. High-quality apparel and accessories for everyone.",
+  twitterImage: "/img/img 10.jpg",
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <template>
@@ -68,9 +83,9 @@ export default {
           class="mySwiper"
         >
           <swiper-slide>
-            <div class="bg-[#EA2127] text-left ">
+            <div class="bg-[#EA2127] text-left">
               <NuxtImg
-                class="w-full h-auto max-w-[100%] "
+                class="w-full h-auto max-w-[100%]"
                 src="/img/img 9.jpg"
                 alt=""
               />

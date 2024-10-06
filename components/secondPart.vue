@@ -1,4 +1,32 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useSeoMeta({
+  description:
+    "Shop the latest trends and exclusive collections at VTMERCH. Discover high-quality apparel and accessories for all occasions. Free shipping on orders over $50.",
+  ogTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  ogDescription:
+    "Discover the latest styles at VTMERCH. Shop our exclusive range of apparel and accessories, designed for quality and style.",
+  ogImage: "/img/img (4).jpeg", 
+  ogUrl: "https://www.vtmerch.com", 
+  twitterTitle: "VTMERCH - Exclusive Apparel & Accessories",
+  twitterDescription:
+    "Shop the latest trends at VTMERCH. High-quality apparel and accessories for everyone.",
+  twitterImage: "/img/img (6).jpeg",
+  twitterCard: "summary_large_image",
+});
+
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png", // Update with your actual favicon path
+    },
+  ],
+});
+</script>
 <template>
   <div class="flex items-center justify-center min-h-screen bg-[#F6F5F5]">
     <main class="container mx-auto px-4 md:px-0">
