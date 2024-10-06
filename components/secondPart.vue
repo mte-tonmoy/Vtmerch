@@ -5,8 +5,8 @@ useSeoMeta({
   ogTitle: "VTMERCH - Exclusive Apparel & Accessories",
   ogDescription:
     "Discover the latest styles at VTMERCH. Shop our exclusive range of apparel and accessories, designed for quality and style.",
-  ogImage: "/img/img (4).jpeg", 
-  ogUrl: "https://www.vtmerch.com", 
+  ogImage: "/img/img (4).jpeg",
+  ogUrl: "https://www.vtmerch.com",
   twitterTitle: "VTMERCH - Exclusive Apparel & Accessories",
   twitterDescription:
     "Shop the latest trends at VTMERCH. High-quality apparel and accessories for everyone.",
@@ -39,7 +39,9 @@ useHead({
       </span>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
+        <div
+          class="shadow-lg p-5 rounded-lg hover:scale-110 hover:transform transition-transform duration-500 ease-in-out hover:bg-slate-50"
+        >
           <NuxtImg
             class="w-full h-auto rounded-lg"
             src="/img/img (4).jpeg"
@@ -53,7 +55,9 @@ useHead({
             <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
+        <div
+          class="shadow-lg p-5 rounded-lg hover:scale-110 hover:transform transition-transform duration-500 ease-in-out hover:bg-slate-50"
+        >
           <NuxtImg
             class="w-full h-auto rounded-lg"
             src="/img/img (6).jpeg"
@@ -67,7 +71,9 @@ useHead({
             <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
+        <div
+          class="shadow-lg p-5 rounded-lg hover:scale-110 hover:transform transition-transform duration-500 ease-in-out hover:bg-slate-50"
+        >
           <NuxtImg
             class="w-full h-auto rounded-lg"
             src="/img/img (7).jpeg"
@@ -81,7 +87,9 @@ useHead({
             <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
+        <div
+          class="shadow-lg p-5 rounded-lg hover:scale-110 hover:transform transition-transform duration-500 ease-in-out hover:bg-slate-50"
+        >
           <NuxtImg
             class="w-full h-auto rounded-lg"
             src="/img/img (10).jpeg"
