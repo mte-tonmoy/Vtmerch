@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.{vue,js}",
+    "./pages/**/*.{vue,js}",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "red-gradient": "linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%)",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

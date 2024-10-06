@@ -1,20 +1,29 @@
+<script lang="ts" setup></script>
 <template>
   <div>
-    <main class="flex container bg-[#111111] min-w-full h-[852px]">
-      <section class="container mx-auto flex gap-24 mt-[101px]">
-        <div>
-          <h1 class="text-[49px] text-white">Patrick Bet-David's</h1>
-          <h1 class="bg-red-gradient bg-clip-text text-transparent text-[70px]">
+    <main class="flex container bg-[#111111] min-w-full h-auto py-10">
+      <section
+        class="container mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 mt-12 lg:mt-[101px]"
+      >
+        <div class="text-center lg:text-left">
+          <h1 class="text-3xl lg:text-[49px] text-white montserrat mb-[5%]">
+            Patrick Bet-David's
+          </h1>
+          <h1
+            class="bg-gradient-to-r from-[#DE2A2F] to-[#EF5256] bg-clip-text text-transparent text-5xl lg:text-7xl font-bold tracking-wider uppercase"
+          >
             Signed
           </h1>
-          <h1 class="bg-red-gradient bg-clip-text text-transparent text-[70px]">
+          <h1
+            class="bg-gradient-to-r from-[#DE2A2F] to-[#EF5256] bg-clip-text text-transparent text-5xl lg:text-7xl font-bold uppercase mb-6 lg:mb-12"
+          >
             Collection
           </h1>
           <NuxtLink
             to="/"
-            class="bg-white w-[186px] h-[52px] rounded-xl flex justify-center items-center"
+            class="bg-white w-auto lg:w-[186px] h-[52px] rounded-xl flex justify-center items-center px-4 py-2"
           >
-            <span class="text-xl">Shop Now</span>
+            <span class="text-lg lg:text-xl montserrat">Shop Now</span>
             <Icon
               name="ph:arrow-right-bold"
               style="color: black"
@@ -22,33 +31,25 @@
             />
           </NuxtLink>
           <NuxtImg
-            width="full"
-            height="458px"
+            class="w-full max-w-full h-auto rounded-lg mt-6 lg:mt-10"
             src="/img/pat-signature White 1.png"
             alt=""
-            class="rounded-lg"
           />
         </div>
-        <div>
-          <div class="flex w-[798px] h-[588px]">
-            <NuxtImg
-              width="370"
-              height="588"
-              src="/img/img(12).png"
-              alt=""
-              class="rounded-lg"
-            />
-            <NuxtImg
-              width="404"
-              height="518"
-              src="/img/img (8).png"
-              alt=""
-              class="rounded-lg py-7"
-            />
-          </div>
+
+        <div class="flex flex-col lg:flex-row">
+          <NuxtImg
+            class="w-full lg:w-[50%] md:h-[80%] rounded-lg"
+            src="/img/img(12).png"
+            alt=""
+          />
+          <NuxtImg
+            class="w-full p-7 lg:w-[50%] md:h-[80%] rounded-lg"
+            src="/img/img (8).png"
+            alt=""
+          />
         </div>
       </section>
-      <section>img</section>
     </main>
   </div>
 </template>

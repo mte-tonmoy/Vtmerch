@@ -1,41 +1,41 @@
+<script lang="ts" setup></script>
 <template>
   <div>
-    <main class="h-[577px] bg-red-gradient ">
-      <div class="container mx-auto flex">
-        <section class="my-auto">
-          <div class="flex gap-4">
+    <main class="h-fit bg-gradient-to-r from-[#EC3339] to-[#BB1117]">
+      <div class="container mx-auto flex flex-col lg:flex-row items-center">
+        <section class="text-center lg:text-left lg:my-auto lg:w-1/2">
+          <div class="flex justify-center lg:justify-start gap-4 mb-6">
             <NuxtImg
-              width="full"
-              height="221px"
+              class="w-32 lg:w-auto h-auto rounded-lg opacity-20"
               src="/img/vector.png"
               alt=""
-              class="rounded-lg opacity-20"
             />
             <NuxtImg
-              width="full"
-              height="221px"
+              class="w-32 lg:w-auto h-auto rounded-lg opacity-20"
               src="/img/vector.png"
               alt=""
-              class="rounded-lg opacity-20"
             />
           </div>
-          <h1 class="text-[48px] mt-[-50px] ml-10 uppercase text-white">
+          <h1
+            class="text-2xl lg:text-5xl uppercase text-white montserrat mb-4 mt-[-10%]"
+          >
             Our mission is to enlighten, entertain
           </h1>
-          <h1 class="text-[48px] ml-10 uppercase text-white">
+          <h1 class="text-2xl lg:text-5xl uppercase text-white mb-4">
             and empower current and future
           </h1>
-          <h1 class="text-[48px] ml-10 uppercase text-white">
+          <h1 class="text-2xl lg:text-5xl uppercase text-white mb-[15%]">
             leaders around the world.
           </h1>
         </section>
-        <section>
+
+        <section
+          class="mt-10 lg:mt-0 lg:w-1/2 flex justify-center lg:justify-end"
+        >
           <NuxtImg
-            width="571"
-            height="725"
+            class="w-full lg:w-auto h-auto mt-[-20%]"
             src="/img/img (5).png"
             alt=""
-            class="mt-[-148px]"
           />
         </section>
       </div>

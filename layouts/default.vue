@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <firstPart /> -->
+    <firstPart />
     <SecondPart />
     <thirdPart />
     <fourthPart />

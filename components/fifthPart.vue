@@ -1,150 +1,120 @@
 <script lang="ts" setup></script>
 <template>
-  <div>
-    <main>
-      <!-- <section class="h-[748px] bg-black">
-        <header class="container mx-auto">
-          <div class="flex">
-            <NuxtImg
-              width="112px"
-              height="112px"
-              src="/img/red-logo.png"
-              alt=""
+  <section class="bg-black py-10">
+    <main class="container mx-auto">
+      <header class="flex flex-col md:flex-row items-center gap-6">
+        <NuxtImg
+          class="w-28 h-auto"
+          src="/img/red-logo.png"
+          alt="VTMERCH Logo"
+        />
+        <h1
+          class="text-4xl md:text-7xl lg:text-9xl font-extrabold text-white montserrat tracking-wider"
+        >
+          VTMERCH
+        </h1>
+      </header>
+
+      <hr class="border-[#A6A5A380] my-8" />
+
+      <article
+        class="flex flex-col md:flex-row justify-around gap-16 mt-12 p-2"
+      >
+        <div class="flex flex-col w-full md:w-1/3">
+          <h1 class="text-lg md:text-xl text-white font-medium mb-4">
+            Subscribe and be the first to receive notifications about our
+            upcoming releases and the latest news.
+          </h1>
+          <div class="flex flex-col gap-4">
+            <input
+              class="text-white border py-2 rounded-lg text-lg bg-transparent px-3 text-center placeholder-white"
+              placeholder="Enter your email"
             />
-            <h1 class="uppercase text-white text-[100px]">VTMERCH</h1>
+            <NuxtLink
+              class="bg-white text-[#222222] border py-2 rounded-lg text-lg text-center"
+              >Subscribe</NuxtLink
+            >
           </div>
+        </div>
 
-          <hr class="border-[#A6A5A380]" />
+        <div class="text-white w-full md:w-1/4">
+          <h3 class="text-lg font-semibold mb-4">Customer Services</h3>
+          <ul class="space-y-2">
+            <li><NuxtLink to="#">Search</NuxtLink></li>
+            <li><NuxtLink to="#">Privacy Policy</NuxtLink></li>
+            <li><NuxtLink to="#">About Us</NuxtLink></li>
+            <li><NuxtLink to="#">Contact Us</NuxtLink></li>
+            <li><NuxtLink to="#">Terms of Service</NuxtLink></li>
+            <li><NuxtLink to="#">Refund Policy</NuxtLink></li>
+            <li><NuxtLink to="#">Track Order</NuxtLink></li>
+          </ul>
+        </div>
 
-          <div class="flex justify-between">
-            <div>
-              <h1 class="text-[50px] text-white">
-                Subscribe and be the first to receive notifications about our
-                upcoming releases and the latest news.
-              </h1>
-              <div>
-                <NuxtLink
-                  class="text-white border px-60 py-2 rounded-lg text-lg gap-10"
-                  >Enter your email</NuxtLink
-                >
-                <NuxtLink
-                  class="text-white border px-60 py-2 rounded-lg text-lg gap-10"
-                  >Subscribe</NuxtLink
-                >
-              </div>
-            </div>
-            <div>
-              <h1 class="text-[50px] text-white">Contact Us</h1>
-              <h1 class="text-[50px] text-white">FAQ</h1>
-              <h1 class="text-[50px] text-white">Returns</h1>
-              <h1 class="text-[50px] text-white">Shipping</h1>
-            </div>
-            <div>
-              <h1 class="text-[50px] text-white">Privacy Policy</h1>
-              <h1 class="text-[50px] text-white">Terms of Service</h1>
-              <h1 class="text-[50px] text-white">Accessibility</h1>
-            </div>
-            <div>
-              <h1 class="text-[50px] text-white">About Us</h1>
-              <h1 class="text-[50px] text-white">Careers</h1>
-              <h1 class="text-[50px] text-white">Press</h1>
-            </div>
+        <div class="text-white w-full md:w-1/4">
+          <h3 class="text-lg font-semibold mb-4">Products</h3>
+          <ul class="space-y-2">
+            <li><NuxtLink to="#">Featured Products</NuxtLink></li>
+            <li><NuxtLink to="#">Bestseller</NuxtLink></li>
+            <li><NuxtLink to="#">Latest Product</NuxtLink></li>
+            <li><NuxtLink to="#">All Collections</NuxtLink></li>
+            <li><NuxtLink to="#">All Products</NuxtLink></li>
+          </ul>
+        </div>
+
+        <div class="text-white w-full md:w-1/4">
+          <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+          <p class="mb-4">
+            Available between 8AM to 8PM. Ready to answer your questions.
+          </p>
+          <p class="mb-2 flex items-center gap-3">
+            <Icon name="bi:telephone" /> 013456789
+          </p>
+          <p class="mb-4 flex items-center gap-3">
+            <Icon name="octicon:mail-24" /> store@valuetainment.com
+          </p>
+
+          <div class="flex space-x-4">
+            <NuxtLink to="https://www.facebook.com/"
+              ><Icon name="mage:facebook" size="20"
+            /></NuxtLink>
+            <NuxtLink to="https://x.com/?lang=en"
+              ><Icon name="mdi:twitter" size="20"
+            /></NuxtLink>
+            <NuxtLink to="https://www.linkedin.com/"
+              ><Icon name="ri:linkedin-fill" size="20"
+            /></NuxtLink>
+            <NuxtLink to="https://www.instagram.com/"
+              ><Icon name="mdi:instagram" size="20"
+            /></NuxtLink>
           </div>
-        </header>
-      </section> -->
-    
-<footer class="bg-black text-white py-10">
-  <div class="container mx-auto px-6">
-    
-    <!-- Top Section: Logo and Subscribe Form -->
-    <div class="flex flex-col md:flex-row justify-between items-start mb-8">
-      
-      <!-- Logo -->
-      <div class="mb-6 md:mb-0">
-        <img src="/img/red-logo.png" alt="Logo" class="w-32">
-      </div>
-      
-      <!-- Subscribe Form -->
-      <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row items-center space-x-2">
-        <p class="text-lg font-medium text-center md:text-left">
-          Subscribe and be the first to receive notifications about our upcoming releases.
+        </div>
+      </article>
+
+      <footer
+        class="mt-12 flex flex-col md:flex-row justify-between items-center text-gray-400"
+      >
+        <p class="text-sm">
+          &copy; 2024 Valuetainment Store. All rights reserved.
         </p>
-        <div class="flex items-center border border-gray-600 rounded-lg overflow-hidden">
-          <input 
-            type="email" 
-            placeholder="Enter your email" 
-            class="p-2 bg-transparent text-white placeholder-gray-400 focus:outline-none"
+
+        <div class="flex space-x-4 mb-4 md:mb-0">
+          <NuxtImg src="/icon/visa 1.svg" alt="Visa" class="w-8" />
+          <NuxtImg src="/icon/apple-pay 1.svg" alt="Apple Pay" class="w-8" />
+          <NuxtImg
+            src="/icon/diners-club 1.svg"
+            alt="Diners Club"
+            class="w-8"
           />
-          <button class="bg-white text-black px-6 py-2 hover:bg-gray-200">
-            Subscribe
-          </button>
+          <NuxtImg src="/icon/visa 1.svg" alt="Visa" class="w-8" />
+          <NuxtImg src="/icon/amex 1.svg" alt="Amex" class="w-8" />
+          <NuxtImg src="/icon/paypal 1.svg" alt="PayPal" class="w-8" />
+          <NuxtImg
+            src="/icon/american-express 1.svg"
+            alt="American Express"
+            class="w-8"
+          />
         </div>
-      </div>
-
-    </div>
-
-    <!-- Middle Section: Links -->
-    <div class="flex flex-wrap justify-between mb-8">
-      
-      <!-- Customer Services Column -->
-      <div class="w-full md:w-1/3 mb-6 md:mb-0">
-        <h3 class="text-lg font-semibold mb-4">Customer Services</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:underline">About Us</a></li>
-          <li><a href="#" class="hover:underline">Search</a></li>
-          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
-          <li><a href="#" class="hover:underline">Contact Us</a></li>
-          <li><a href="#" class="hover:underline">Terms of Service</a></li>
-          <li><a href="#" class="hover:underline">Refund Policy</a></li>
-          <li><a href="#" class="hover:underline">Track Order</a></li>
-        </ul>
-      </div>
-
-      <!-- Products Column -->
-      <div class="w-full md:w-1/3 mb-6 md:mb-0">
-        <h3 class="text-lg font-semibold mb-4">Products</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:underline">Featured Products</a></li>
-          <li><a href="#" class="hover:underline">Bestseller</a></li>
-          <li><a href="#" class="hover:underline">Latest Product</a></li>
-          <li><a href="#" class="hover:underline">All Collections</a></li>
-          <li><a href="#" class="hover:underline">All Products</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact Us Column -->
-      <div class="w-full md:w-1/3">
-        <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
-        <p class="mb-4">Available between 8AM to 8PM. Ready to answer your questions.</p>
-        <p class="mb-2"><i class="fas fa-phone"></i> 013456789</p>
-        <p class="mb-4"><i class="fas fa-envelope"></i> store@valuetainment.com</p>
-        <!-- Social Media Icons -->
-        <div class="flex space-x-4">
-          <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Bottom Section: Payment Icons and Copyright -->
-    <div class="mt-8 border-t border-gray-600 pt-8 flex flex-col md:flex-row justify-between items-center">
-      <!-- Payment Icons -->
-      <div class="flex space-x-4 mb-4 md:mb-0">
-        <img src="/icon/visa 1.svg" alt="Visa" class="w-12">
-        <img src="/icon/visa 1.svg" alt="Mastercard" class="w-12">
-        <img src="/icon/visa 1.svg" alt="Paypal" class="w-12">
-      </div>
-
-      <!-- Copyright -->
-      <p class="text-sm text-gray-400">&copy; 2024 Valuetainment Store. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
-
-
+      </footer>
     </main>
-  </div>
+  </section>
 </template>

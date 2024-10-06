@@ -1,62 +1,70 @@
 <script lang="ts" setup></script>
 <template>
-  <div class="min-h-[700px] container mx-auto">
-    <main class="  bg-red-200;">
-      <h1 class="text-[70px]">BUY 1 GET 1 FREE</h1>
-      <span class="text-[70px]">ON</span>
-      <span class="text-outline text-6xl font-bold"> BEST SELLING PRODUCTS</span>
+  <div class="flex items-center justify-center min-h-screen bg-[#F6F5F5]">
+    <main class="container mx-auto px-4 md:px-0">
+      <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold montserrat">
+        BUY 1 GET 1 FREE
+      </h1>
+      <span class="text-3xl md:text-5xl lg:text-7xl montserrat">ON</span>
+      <span class="text-outline text-3xl md:text-5xl lg:text-7xl montserrat">
+        BEST SELLING PRODUCTS
+      </span>
 
-      <div class="flex gap-16">
-        <div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
           <NuxtImg
-            width="386.5px"
-            height="458px"
-            src="/img/img (10).jpeg"
+            class="w-full h-auto rounded-lg"
+            src="/img/img (4).jpeg"
             alt=""
-            class="rounded-lg"
           />
-          <h1 class="title">Army Green Active Short Sleeve</h1>
-          <h1>
-            $ 34.95 <span class="text-gray-400 line-through">$34.95</span>
+          <h1 class="text-[#060606] text-base md:text-lg inter mt-2">
+            Army Green Active Short Sleeve
+          </h1>
+          <h1 class="text-[#060606] text-base md:text-lg inter">
+            $ 34.95
+            <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div>
+        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
           <NuxtImg
-            width="386.5px"
-            height="458px"
+            class="w-full h-auto rounded-lg"
             src="/img/img (6).jpeg"
             alt=""
-            class="rounded-lg"
           />
-          <h1>Army Green Active Short Sleeve</h1>
-          <h1>
-            $ 34.95 <span class="text-gray-400 line-through">$34.95</span>
+          <h1 class="text-[#060606] text-base md:text-lg inter mt-2">
+            Army Green Active Short Sleeve
+          </h1>
+          <h1 class="text-[#060606] text-base md:text-lg inter">
+            $ 34.95
+            <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div>
+        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
           <NuxtImg
-            width="386.5px"
-            height="458px"
+            class="w-full h-auto rounded-lg"
             src="/img/img (7).jpeg"
             alt=""
-            class="rounded-lg"
           />
-          <h1>Army Green Active Short Sleeve</h1>
-          <h1>
-            $ 34.95 <span class="text-gray-400 line-through">$34.95</span>
+          <h1 class="text-[#060606] text-base md:text-lg inter mt-2">
+            Army Green Active Short Sleeve
+          </h1>
+          <h1 class="text-[#060606] text-base md:text-lg inter">
+            $ 34.95
+            <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
-        <div>
+        <div class="shadow-lg p-5 rounded-lg hover:scale-110 hover:bg-slate-50">
           <NuxtImg
-            width="386.5px"
-            height="458px"
+            class="w-full h-auto rounded-lg"
             src="/img/img (10).jpeg"
             alt=""
-            class="rounded-lg"
           />
-          <h1>Army Green Active Short Sleeve</h1>
-          <h1>
-            $ 34.95 <span class="text-gray-400 line-through">$34.95</span>
+          <h1 class="text-[#060606] text-base md:text-lg inter mt-2">
+            Army Green Active Short Sleeve
+          </h1>
+          <h1 class="text-[#060606] text-base md:text-lg inter">
+            $ 34.95
+            <span class="text-[#9B9B9B] line-through">$34.95</span>
           </h1>
         </div>
       </div>
